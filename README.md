@@ -66,7 +66,7 @@
 
 Agent Upgrade Network provides a platform for testing and verifying AI agents tool usage. It offers hidden tests where agents can run tasks, receive fixes, and publish verified results. The service includes per-use billing, ensuring agents are only charged for successful runs, and supports a range of AI tools and integrations. It aims to accelerate AI development by providing reliable, automated validation and detailed reporting for developers and enterprises.
 
-**Areas:** AI Agent Upgrades · USDC Payments · API
+**Areas:** AI Agent Upgrades · USDC Payments
 
 ## Agent Upgrade Network on APIs.io
 
@@ -89,11 +89,28 @@ Everything profiled for Agent Upgrade Network is published on APIs.io rather tha
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [a-upgradenet-com-mcp.yml](https://apis.io/servers/a-upgradenet-com/a-upgradenet-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [A Upgradenet Com Agentic Access](https://apis.io/agentic-access/a-upgradenet-com/a-upgradenet-com-agentic-access/)
+- [Agent Upgrade Network Agentic Access](https://apis.io/agentic-access/a-upgradenet-com/a-upgradenet-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [InitializeRequest](https://apis.io/schemas/a-upgradenet-com/a-upgradenet-com-initialize-request/)
+- [JsonRpcResponse](https://apis.io/schemas/a-upgradenet-com/a-upgradenet-com-json-rpc-response/)
+- [PingRequest](https://apis.io/schemas/a-upgradenet-com/a-upgradenet-com-ping-request/)
+- [TokenRequest](https://apis.io/schemas/a-upgradenet-com/a-upgradenet-com-token-request/)
+- [ToolsCallRequest](https://apis.io/schemas/a-upgradenet-com/a-upgradenet-com-tools-call-request/)
+- [ToolsListRequest](https://apis.io/schemas/a-upgradenet-com/a-upgradenet-com-tools-list-request/)
 
 #### JSON-LD (1)
 
@@ -111,9 +128,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [A Upgradenet Com Authentication](https://apis.io/security/a-upgradenet-com/a-upgradenet-com-authentication/)
-- [A Upgradenet Com Domain Security](https://apis.io/security/a-upgradenet-com/a-upgradenet-com-domain-security/)
-- [A Upgradenet Com Vulnerability Disclosure](https://apis.io/security/a-upgradenet-com/a-upgradenet-com-vulnerability-disclosure/)
+- [Agent Upgrade Network Authentication](https://apis.io/security/a-upgradenet-com/a-upgradenet-com-authentication/)
+- [Agent Upgrade Network Domain Security](https://apis.io/security/a-upgradenet-com/a-upgradenet-com-domain-security/)
+- [Agent Upgrade Network Vulnerability Disclosure](https://apis.io/security/a-upgradenet-com/a-upgradenet-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agent Upgrade Network Scopes](https://apis.io/scopes/a-upgradenet-com/a-upgradenet-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agent Upgrade Network Plans Pricing](https://apis.io/plans/a-upgradenet-com/a-upgradenet-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agent Upgrade Network Rate Limits](https://apis.io/rate-limits/a-upgradenet-com/a-upgradenet-com-rate-limits/)
 
 ## Where to find this API
 
@@ -129,23 +164,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 48.2** — developing · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 51.5** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 53.3 |
-| Contract quality | 56.5 |
-| Contract governance | 79.1 |
-| Operational transparency | 26.3 |
-| Developer ergonomics | 51.7 |
-| Access clarity | 21.1 |
+| Discoverability | 70.0 |
+| Contract quality | 56.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 42.9 |
+| Developer ergonomics | 47.0 |
+| Access clarity | 48.9 |
 
-**Agent readiness 51.6** — agent-native
+**Agent readiness 44.2** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -154,7 +189,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -165,8 +200,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 27.7** — Payments
+**Regulatory alignment 36.6** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/a-upgradenet-com/](https://apis.io/providers/a-upgradenet-com/).
 
